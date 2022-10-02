@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hi, $name !"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btLogout"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="LOGOUT" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvGoldFarming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G : $gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDayFarming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:text="Day : $day"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btTopUpFarming"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="TOPUP" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvWheat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Wheat : $wheat" />
+
+            <Button
+                android:id="@+id/btShopFarming"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="SHOP" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingHorizontal="40dp">
+
+            <Button
+                android:id="@+id/tile00"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile01"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile02"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile03"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingHorizontal="40dp">
+
+            <Button
+                android:id="@+id/tile10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingHorizontal="40dp">
+
+            <Button
+                android:id="@+id/tile20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile23"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingHorizontal="40dp">
+
+            <Button
+                android:id="@+id/tile30"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile31"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile32"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/tile33"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="" />
+        </LinearLayout>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btNextDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT DAY" />
+
+    <Button
+        android:id="@+id/btShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHARE" />
+</LinearLayout>
